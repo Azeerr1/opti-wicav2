@@ -30,4 +30,20 @@
       #rocket{
         display:none;
       }
-}
+    .navigation{
+        display:none;
+     }
+
+     .header.navigation  { 
+      display: none;  
+      flex-direction: column;  
+      background: #48435C; 
+      height: 220px; 
+    }  
+      .header.navigation a {  
+          width: 50%; 
+      }  
+    #toggle:checked + .navigation {  
+          display: flex; 
+    }  
+  }
